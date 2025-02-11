@@ -136,7 +136,7 @@ class _FullScreenNativeAdState extends State<FullScreenNativeAd> {
 
   void _loadAd() {
     _nativeAd = NativeAd(
-      // adUnitId: "ca-app-pub-3940256099942544/2247696110",
+      //adUnitId: "ca-app-pub-3940256099942544/2247696110",
       adUnitId:"ca-app-pub-3940256099942544/1044960115",   /// for Video native ad
       factoryId: "full_native",
       request: const AdRequest(),
@@ -183,16 +183,16 @@ class _FullScreenNativeAdState extends State<FullScreenNativeAd> {
                 ),
               ),
             ),
-            Positioned(
-              top: 20,
-              right: 20,
-              child: IconButton(
-                icon: const Icon(Icons.close, color: Colors.white, size: 20),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-              ),
-            ),
+            // Positioned(
+            //   top: 20,
+            //   right: 20,
+            //   child: IconButton(
+            //     icon: const Icon(Icons.close, color: Colors.white, size: 20),
+            //     onPressed: () {
+            //       Navigator.pop(context);
+            //     },
+            //   ),
+            // ),
           ],
         ),
       ),
