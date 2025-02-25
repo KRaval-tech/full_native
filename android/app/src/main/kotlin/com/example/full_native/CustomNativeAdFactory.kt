@@ -94,7 +94,7 @@ class CustomNativeAdFactory(var context: Context) : GoogleMobileAdsPlugin.Native
         // Set MediaView
         val mediaView = adView.findViewById<MediaView>(R.id.ad_media)
         adView.mediaView = mediaView
-        mediaView.setImageScaleType(ImageView.ScaleType.CENTER_CROP)
+//        mediaView.setImageScaleType(ImageView.ScaleType.CENTER_CROP)
 
         // Set Ad Attribution Label
         adView.findViewById<TextView>(R.id.ad_attribution).apply {
