@@ -166,7 +166,7 @@ class _FullScreenNativeAdState extends State<FullScreenNativeAd> {
     return Scaffold(
       body: Dismissible(
         key: const Key("nativeAd"),
-        direction: DismissDirection.endToStart,
+        direction: DismissDirection.horizontal,
         onDismissed: (direction) {
           Navigator.pop(context);
         },
